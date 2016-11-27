@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sah.les_4.SecondActivity">
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:layout_gravity="center"
+        android:src="@drawable/andr1" />
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:layout_gravity="center"
+        android:src="@drawable/andr2" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:layout_gravity="center"
+        android:src="@drawable/andr3" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="@dimen/imgSize"
+        android:layout_height="@dimen/imgSize"
+        android:layout_gravity="center"
+        android:src="@drawable/andr4" />
+</LinearLayout>
